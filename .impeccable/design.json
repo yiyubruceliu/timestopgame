@@ -1,0 +1,525 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-05T11:03:19+01:00",
+  "title": "Design System: Get to 1 second",
+  "extensions": {
+    "colorMeta": {
+      "tomato": {
+        "role": "primary",
+        "displayName": "Tomato",
+        "canonical": "#e23a2e",
+        "tonalRamp": [
+          "#5c100c",
+          "#8e1610",
+          "#a81610",
+          "#c92218",
+          "#e23a2e",
+          "#ef6a5c",
+          "#f5a399",
+          "#fce3df"
+        ]
+      },
+      "tomato-deep": {
+        "role": "primary",
+        "displayName": "Tomato Deep",
+        "canonical": "#c92218",
+        "tonalRamp": [
+          "#4a0e0a",
+          "#6f1410",
+          "#8e1610",
+          "#a81610",
+          "#c92218",
+          "#e23a2e",
+          "#ef7d72",
+          "#f8d4cf"
+        ]
+      },
+      "tomato-stem-end": {
+        "role": "primary",
+        "displayName": "Tomato Stem End",
+        "canonical": "#a81610",
+        "tonalRamp": [
+          "#3f0c09",
+          "#5c100c",
+          "#7a1410",
+          "#a81610",
+          "#c92218",
+          "#e23a2e",
+          "#ef8a80",
+          "#f9d8d4"
+        ]
+      },
+      "tomato-shadow": {
+        "role": "primary",
+        "displayName": "Tomato Shadow",
+        "canonical": "#8e1610",
+        "tonalRamp": [
+          "#2e0907",
+          "#4a0e0a",
+          "#6f1410",
+          "#8e1610",
+          "#a81610",
+          "#c92218",
+          "#e56b60",
+          "#f6d0cb"
+        ]
+      },
+      "ground": {
+        "role": "neutral",
+        "displayName": "Sage Ground",
+        "canonical": "#c8d4c0",
+        "tonalRamp": [
+          "#3a4338",
+          "#5a6656",
+          "#7a8774",
+          "#9aa890",
+          "#b4c2aa",
+          "#c8d4c0",
+          "#dce6d4",
+          "#f0f5ec"
+        ]
+      },
+      "ground-mid": {
+        "role": "neutral",
+        "displayName": "Sage Lift",
+        "canonical": "#dce6d4",
+        "tonalRamp": [
+          "#3a4338",
+          "#5a6656",
+          "#7a8774",
+          "#9aa890",
+          "#b4c2aa",
+          "#c8d4c0",
+          "#dce6d4",
+          "#f0f5ec"
+        ]
+      },
+      "ground-deep": {
+        "role": "neutral",
+        "displayName": "Sage Depth",
+        "canonical": "#b4c2aa",
+        "tonalRamp": [
+          "#2a2e2c",
+          "#3a4338",
+          "#5a6656",
+          "#7a8774",
+          "#9aa890",
+          "#b4c2aa",
+          "#c8d4c0",
+          "#e8efe4"
+        ]
+      },
+      "dial": {
+        "role": "neutral",
+        "displayName": "Enamel Dial",
+        "canonical": "#f0e6d8",
+        "tonalRamp": [
+          "#4a4036",
+          "#6e6054",
+          "#948274",
+          "#b8a594",
+          "#d4c4b2",
+          "#e2d4c4",
+          "#f0e6d8",
+          "#fffaf2"
+        ]
+      },
+      "dial-light": {
+        "role": "neutral",
+        "displayName": "Enamel Light",
+        "canonical": "#fffaf2",
+        "tonalRamp": [
+          "#4a4036",
+          "#6e6054",
+          "#948274",
+          "#b8a594",
+          "#d4c4b2",
+          "#e2d4c4",
+          "#f0e6d8",
+          "#fffaf2"
+        ]
+      },
+      "dial-shade": {
+        "role": "neutral",
+        "displayName": "Enamel Shade",
+        "canonical": "#e2d4c4",
+        "tonalRamp": [
+          "#3a322c",
+          "#5a4e44",
+          "#7a6a5c",
+          "#9a8878",
+          "#b8a594",
+          "#e2d4c4",
+          "#f0e6d8",
+          "#fffaf2"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#2a2e2c",
+        "tonalRamp": [
+          "#121412",
+          "#2a2e2c",
+          "#3a4338",
+          "#5a6656",
+          "#7a8774",
+          "#9aa890",
+          "#c8d4c0",
+          "#eef2ea"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Ink Soft",
+        "canonical": "#3a4338",
+        "tonalRamp": [
+          "#181c1a",
+          "#2a2e2c",
+          "#3a4338",
+          "#5a6656",
+          "#7a8774",
+          "#9aa890",
+          "#c8d4c0",
+          "#eef2ea"
+        ]
+      },
+      "chrome": {
+        "role": "neutral",
+        "displayName": "Chrome",
+        "canonical": "#9aa3a8",
+        "tonalRamp": [
+          "#3a4044",
+          "#5a6268",
+          "#7f878c",
+          "#9aa3a8",
+          "#b8c0c4",
+          "#c4cbcf",
+          "#efe6da",
+          "#f7f2ea"
+        ]
+      },
+      "chrome-light": {
+        "role": "neutral",
+        "displayName": "Chrome Light",
+        "canonical": "#efe6da",
+        "tonalRamp": [
+          "#4a443c",
+          "#6e6558",
+          "#94897a",
+          "#b8aea0",
+          "#d4c8ba",
+          "#e2d8cc",
+          "#efe6da",
+          "#faf6f0"
+        ]
+      },
+      "chrome-rim-hi": {
+        "role": "neutral",
+        "displayName": "Chrome Rim Hi",
+        "canonical": "#c4cbcf",
+        "tonalRamp": [
+          "#3a4044",
+          "#5a6268",
+          "#7f878c",
+          "#9aa3a8",
+          "#b8c0c4",
+          "#c4cbcf",
+          "#dde2e4",
+          "#f2f4f5"
+        ]
+      },
+      "chrome-rim-mid": {
+        "role": "neutral",
+        "displayName": "Chrome Rim Mid",
+        "canonical": "#7f878c",
+        "tonalRamp": [
+          "#2c3034",
+          "#464c50",
+          "#60686c",
+          "#7f878c",
+          "#9aa3a8",
+          "#b8c0c4",
+          "#d4d9dc",
+          "#eef0f1"
+        ]
+      },
+      "chrome-rim-lo": {
+        "role": "neutral",
+        "displayName": "Chrome Rim Lo",
+        "canonical": "#b8c0c4",
+        "tonalRamp": [
+          "#3a4044",
+          "#5a6268",
+          "#7f878c",
+          "#9aa3a8",
+          "#b8c0c4",
+          "#c4cbcf",
+          "#dde2e4",
+          "#f2f4f5"
+        ]
+      },
+      "focus": {
+        "role": "neutral",
+        "displayName": "Focus Sage",
+        "canonical": "#1f6b4a",
+        "tonalRamp": [
+          "#0c2a1c",
+          "#14402c",
+          "#1f6b4a",
+          "#2f8a62",
+          "#4aa87c",
+          "#7bc4a0",
+          "#b5dfc8",
+          "#e4f5ec"
+        ]
+      },
+      "stem-label": {
+        "role": "neutral",
+        "displayName": "Stem Label",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#2a2e2c",
+          "#5a5e5c",
+          "#8a8e8c",
+          "#b0b4b2",
+          "#d0d4d2",
+          "#e8eae8",
+          "#f5f6f5",
+          "#ffffff"
+        ]
+      },
+      "selection": {
+        "role": "primary",
+        "displayName": "Selection Wash",
+        "canonical": "#e23a2e33",
+        "tonalRamp": [
+          "#e23a2e11",
+          "#e23a2e22",
+          "#e23a2e33",
+          "#e23a2e44",
+          "#e23a2e55",
+          "#e23a2e66",
+          "#e23a2e88",
+          "#e23a2eaa"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display / Readout",
+        "purpose": "Tabular millisecond clock on the enamel face."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Product name locked on the dial face."
+      },
+      "body": {
+        "displayName": "Body / Hint",
+        "purpose": "Hold/release instruction under the timer."
+      },
+      "label": {
+        "displayName": "Label / Stem",
+        "purpose": "Uppercase Hold label on the tomato stem."
+      },
+      "result": {
+        "displayName": "Result",
+        "purpose": "Post-release message on the face."
+      }
+    },
+    "shadows": [
+      {
+        "name": "timer-mass",
+        "value": "drop-shadow(0 28px 48px rgba(40, 50, 40, 0.28))",
+        "purpose": "Soft sage-tinted contact shadow under the circular timer."
+      },
+      {
+        "name": "face-enamel",
+        "value": "inset 0 0 0 10px #efe6da, inset 0 0 42px rgba(0, 0, 0, 0.06)",
+        "purpose": "Chrome-light ring and soft inner shade on the enamel face."
+      },
+      {
+        "name": "holding-halo",
+        "value": "0 0 0 3px rgba(226, 58, 46, 0.35)",
+        "purpose": "Tomato ring added to the face while winding."
+      },
+      {
+        "name": "rim-metal",
+        "value": "inset 0 2px 3px rgba(255, 255, 255, 0.45), inset 0 -3px 4px rgba(0, 0, 0, 0.2)",
+        "purpose": "Chrome bevel on the outer rim."
+      },
+      {
+        "name": "stem-emboss",
+        "value": "0 10px 0 #8e1610, 0 18px 28px rgba(140, 30, 20, 0.32)",
+        "purpose": "Physical wind-button shelf exclusive to the Hold stem."
+      },
+      {
+        "name": "stem-emboss-pressed",
+        "value": "0 2px 0 #8e1610, 0 8px 16px rgba(140, 30, 20, 0.28)",
+        "purpose": "Collapsed emboss while the stem is held."
+      },
+      {
+        "name": "hand-halo",
+        "value": "0 0 0 2px rgb(255 250 242 / 0.45)",
+        "purpose": "Keeps the tomato hand readable on enamel."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Default easing for timer scale, stem press, and win pop."
+      },
+      {
+        "name": "timer-hold-scale",
+        "value": "transform scale(1.018) over 420ms",
+        "purpose": "Subtle swell while winding."
+      },
+      {
+        "name": "win-pop",
+        "value": "scale 1 → 1.06 → 1 over 620ms",
+        "purpose": "Exact 1.000 celebration pulse on the dial."
+      },
+      {
+        "name": "tick-chase",
+        "value": "rotate 6deg over 1s linear infinite",
+        "purpose": "Holding-state tick ring nudge."
+      },
+      {
+        "name": "stem-press",
+        "value": "translateY(8px) over 160ms",
+        "purpose": "Physical stem depression on active/holding."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: reduce → no transitions/animations on timer, stem, readout, win-pop, tick-chase",
+        "purpose": "Accessibility gate for motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "mobile",
+        "value": "480px",
+        "purpose": "Tightens dial size, stem geometry, stage padding, and hint width."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Hold Stem",
+      "kind": "button",
+      "refersTo": "stem",
+      "description": "Tomato wind stem — sole control; embossed pill under the dial.",
+      "html": "<button type=\"button\" class=\"ds-stem\" aria-pressed=\"false\"><span class=\"ds-stem-label\">Hold</span></button>",
+      "css": ".ds-stem { display: inline-flex; align-items: center; justify-content: center; width: min(58%, 220px); min-width: 160px; height: 4.5rem; border: 2px solid #e23a2e; border-radius: 999px; background: linear-gradient(180deg, #c92218, #a81610); color: #ffffff; font-family: Figtree, system-ui, sans-serif; font-weight: 700; font-size: 1.125rem; letter-spacing: 0.06em; text-transform: uppercase; cursor: pointer; box-shadow: 0 10px 0 #8e1610, 0 18px 28px rgba(140, 30, 20, 0.32); transition: transform 160ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 160ms cubic-bezier(0.16, 1, 0.3, 1), filter 160ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-stem:hover { filter: brightness(1.04); } .ds-stem:focus-visible { outline: 3px solid #1f6b4a; outline-offset: 4px; } .ds-stem:active { transform: translateY(8px); box-shadow: 0 2px 0 #8e1610, 0 8px 16px rgba(140, 30, 20, 0.28); } .ds-stem-label { pointer-events: none; }"
+    },
+    {
+      "name": "Hold Stem Hover",
+      "kind": "button",
+      "refersTo": "stem-hover",
+      "description": "Stem resting hover — slight brightness lift only.",
+      "html": "<button type=\"button\" class=\"ds-stem ds-stem--hover\"><span class=\"ds-stem-label\">Hold</span></button>",
+      "css": ".ds-stem { display: inline-flex; align-items: center; justify-content: center; width: min(58%, 220px); min-width: 160px; height: 4.5rem; border: 2px solid #e23a2e; border-radius: 999px; background: linear-gradient(180deg, #c92218, #a81610); color: #ffffff; font-family: Figtree, system-ui, sans-serif; font-weight: 700; font-size: 1.125rem; letter-spacing: 0.06em; text-transform: uppercase; box-shadow: 0 10px 0 #8e1610, 0 18px 28px rgba(140, 30, 20, 0.32); } .ds-stem--hover { filter: brightness(1.04); } .ds-stem-label { pointer-events: none; }"
+    },
+    {
+      "name": "Hold Stem Active",
+      "kind": "button",
+      "refersTo": "stem-active",
+      "description": "Stem pressed while winding — emboss collapses and stem drops 8px.",
+      "html": "<button type=\"button\" class=\"ds-stem ds-stem--active\" aria-pressed=\"true\"><span class=\"ds-stem-label\">Hold</span></button>",
+      "css": ".ds-stem { display: inline-flex; align-items: center; justify-content: center; width: min(58%, 220px); min-width: 160px; height: 4.5rem; border: 2px solid #e23a2e; border-radius: 999px; background: linear-gradient(180deg, #c92218, #a81610); color: #ffffff; font-family: Figtree, system-ui, sans-serif; font-weight: 700; font-size: 1.125rem; letter-spacing: 0.06em; text-transform: uppercase; } .ds-stem--active { transform: translateY(8px); box-shadow: 0 2px 0 #8e1610, 0 8px 16px rgba(140, 30, 20, 0.28); } .ds-stem-label { pointer-events: none; }"
+    },
+    {
+      "name": "Egg Timer Dial",
+      "kind": "custom",
+      "refersTo": "dial-face",
+      "description": "CSS-native chrome rim + cream enamel face — the circular silhouette that owns the viewport.",
+      "html": "<div class=\"ds-timer\" data-state=\"idle\"><div class=\"ds-timer__rim\" aria-hidden=\"true\"></div><div class=\"ds-timer__face\"><div class=\"ds-timer__ticks\" aria-hidden=\"true\"></div><h1 class=\"ds-timer__title\">Get to 1 second</h1><div class=\"ds-timer__hand\" aria-hidden=\"true\"></div><p class=\"ds-timer__readout\">0.000</p></div></div>",
+      "css": ".ds-timer { --dial-size: min(78vw, 320px); position: relative; width: var(--dial-size); height: var(--dial-size); display: grid; place-items: center; filter: drop-shadow(0 28px 48px rgba(40, 50, 40, 0.28)); } .ds-timer__rim { position: absolute; inset: 0; border-radius: 50%; background: linear-gradient(145deg, #c4cbcf, #7f878c 45%, #b8c0c4); box-shadow: inset 0 2px 3px rgba(255, 255, 255, 0.45), inset 0 -3px 4px rgba(0, 0, 0, 0.2); } .ds-timer__face { position: relative; z-index: 1; width: calc(100% - 28px); height: calc(100% - 28px); border-radius: 50%; background: radial-gradient(circle at 42% 32%, #fffaf2, #f0e6d8 55%, #e2d4c4); box-shadow: inset 0 0 0 10px #efe6da, inset 0 0 42px rgba(0, 0, 0, 0.06); display: grid; place-items: center; overflow: hidden; } .ds-timer__ticks { position: absolute; inset: 22px; border-radius: 50%; background: repeating-conic-gradient(from -0.5deg, #2a2e2c 0 1deg, transparent 1deg 6deg); -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 16px), #000 calc(100% - 16px)); mask: radial-gradient(farthest-side, transparent calc(100% - 16px), #000 calc(100% - 16px)); opacity: 0.45; pointer-events: none; } .ds-timer__title { position: absolute; top: 18%; left: 50%; transform: translateX(-50%); margin: 0; font-family: \"Bricolage Grotesque\", system-ui, sans-serif; font-weight: 800; font-size: 1.25rem; letter-spacing: -0.03em; line-height: 1.1; color: #2a2e2c; text-align: center; } .ds-timer__hand { position: absolute; top: 14%; left: 50%; width: 6px; height: 33%; margin-left: -3px; border-radius: 3px; background: #e23a2e; transform-origin: 50% 100%; opacity: 0.55; box-shadow: 0 0 0 2px rgb(255 250 242 / 0.45); } .ds-timer__hand::after { content: \"\"; position: absolute; left: 50%; bottom: -7px; width: 16px; height: 16px; margin-left: -8px; border-radius: 50%; background: #e23a2e; box-shadow: 0 0 0 3px #fffaf2; } .ds-timer__readout { position: relative; z-index: 3; margin: 0; font-family: \"Bricolage Grotesque\", system-ui, sans-serif; font-weight: 800; font-size: 3.5rem; letter-spacing: -0.04em; line-height: 1; font-variant-numeric: tabular-nums; color: #2a2e2c; }"
+    },
+    {
+      "name": "Millisecond Readout",
+      "kind": "custom",
+      "refersTo": "readout",
+      "description": "Tabular Bricolage clock at the dial center; deepens to tomato on win.",
+      "html": "<p class=\"ds-readout\">1.000</p>",
+      "css": ".ds-readout { margin: 0; font-family: \"Bricolage Grotesque\", system-ui, sans-serif; font-weight: 800; font-size: clamp(3.4rem, 14vw, 5.75rem); letter-spacing: -0.04em; line-height: 1; font-variant-numeric: tabular-nums; color: #2a2e2c; } .ds-readout[data-win=\"true\"] { color: #c92218; }"
+    },
+    {
+      "name": "Play Hint",
+      "kind": "custom",
+      "refersTo": "hint",
+      "description": "Single instruction under the timer; strong ink on the 1.000 target.",
+      "html": "<p class=\"ds-hint\">Hold mouse or key · release at <strong>1.000</strong></p>",
+      "css": ".ds-hint { margin: 0; max-width: 28rem; text-align: center; font-family: Figtree, system-ui, sans-serif; font-size: clamp(0.95rem, 2.4vw, 1.125rem); font-weight: 500; color: #3a4338; line-height: 1.45; } .ds-hint strong { color: #2a2e2c; font-weight: 700; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Kitchen Egg Timer",
+    "overview": "The product is one physical kitchen timer sitting on a soft sage countertop. The viewport is that object: chrome rim, cream enamel face, tomato-red second hand, and a tomato stem you press. Hold winds time; release freezes the dial. Exact 1.000 earns confetti. Everything else is atmosphere around a single circular silhouette.\n\nPersonality is playful restraint — enamel and chrome, not neon UI chrome. Density is sparse: title, tabular readout, hand, stem, one hint. The system refuses the centered-title-plus-blue-button microgame template and refuses cards, dashboards, and multi-control layouts.",
+    "keyCharacteristics": [
+      "One circular dial owns the viewport; no cards or side panels",
+      "Soft sage ground, cream enamel face, tomato stem/hand, ink numerals",
+      "Display face Bricolage Grotesque; UI Figtree",
+      "CSS-native materials only (gradients, masks, inset chrome) — no shipping illustration rasters",
+      "Stem is the sole control; hard emboss offset lives only on that control"
+    ],
+    "rules": [
+      {
+        "name": "The One Accent Rule",
+        "body": "Tomato family is reserved for hand, stem, and win feedback. Never recolor ground, enamel, or chrome with tomato fills.",
+        "section": "colors"
+      },
+      {
+        "name": "The Enamel Face Rule",
+        "body": "Face type and ticks stay Ink on cream enamel. Win may deepen readout/result to Tomato Deep; idle never paints the face tomato.",
+        "section": "colors"
+      },
+      {
+        "name": "The Face Type Rule",
+        "body": "Only Bricolage Grotesque sits on the enamel (title + readout). Figtree never becomes face display type.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Clock Rule",
+        "body": "The readout always uses tabular numerals so digits do not jitter while winding.",
+        "section": "typography"
+      },
+      {
+        "name": "The One Silhouette Rule",
+        "body": "The first viewport is the circular timer plus stem and hint. No cards, stats strips, side panels, or second CTAs.",
+        "section": "layout"
+      },
+      {
+        "name": "The Stem-Only Emboss Rule",
+        "body": "Hard offset shadow is native to the tomato stem as a physical wind button. Do not apply hard offset shelves to the dial, hint, or future surfaces.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Soft Dial Rule",
+        "body": "The circular mass lifts with a soft drop-shadow and inset chrome, never a card box-shadow or floating panel.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Circle Owns the Page Rule",
+        "body": "New UI that is not the stem must defer to the circular dial silhouette; rectangular cards and inset media frames are out of world.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do keep one circular timer as the first-viewport composition (dial + stem + hint).",
+      "Do use Tomato only for hand, stem, holding halo, and win feedback.",
+      "Do set face display type in Bricolage Grotesque with tabular numerals on the readout.",
+      "Do build materials with CSS gradients, masks, and inset chrome — no shipping illustration rasters for the dial.",
+      "Do reserve hard emboss offset for the stem control.",
+      "Do honor prefers-reduced-motion by removing timer/stem/readout motion."
+    ],
+    "donts": [
+      "Don't ship a centered-title-plus-blue-button microgame layout.",
+      "Don't introduce cards, dashboards, icon rows, or secondary CTAs.",
+      "Don't put Figtree on the enamel as display type, or Bricolage on the stem label.",
+      "Don't flood the sage ground with tomato fills or purple/glow UI tropes.",
+      "Don't treat review screenshots under .impeccable/review/ as shipping brand assets."
+    ]
+  }
+}

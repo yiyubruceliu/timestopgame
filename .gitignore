@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.impeccable/review/
+.impeccable/questions/
+.impeccable/mocks/
+.impeccable/brief-body.md
